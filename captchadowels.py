@@ -47,20 +47,27 @@ def process_input(input):
         sys.exit(1)
 
     listOfInput = list(input)
-    for c in listOfInput:
-        if c not in CAPTCHA_VALS:
+    for char in listOfInput:
+        if char not in CAPTCHA_VALS:
             print("Error: Your captchalogue code contains an imcompatible character. Check your code and try again.")
             sys.exit(1)
 
     return listOfInput
 
 
-def get_captcha_vals(input):
+def get_dowel_seg_widths(input):
     '''
-    Takes captchalogue code as list of characters (strings), returns
-    a list of ints corresponding to each character's captcha cipher value
+    Takes captchalogue code as list of characters (strings), creates
+    a list of ints corresponding to each character's captcha cipher value,
+    uses said list to calculate widths of carved dowel segments,
+    returns list of segment widths
     '''
-    return []
+    inputCaptchaVals = [CAPTCHA_VALS.index(char) for char in input]
+    dowelSegWidths = [((63-captchaVal) / 63 ) * 100 for captchaVal in inputCaptchaVals]
+
+    #print(inputCaptchaVals)
+    print(dowelSegWidths)
+    return dowelSegWidths
 
 
 def main():
@@ -76,7 +83,7 @@ def main():
     input = get_input()
     input = process_input(input)
 
-    inputCaptchaVals = get_captcha_vals(input)
+    dowelSegWidths = get_dowel_seg_widths(input)
 
 if __name__ == "__main__":
     main()
