@@ -68,20 +68,38 @@ def get_dowel_seg_widths(input):
     return dowelSegWidths
 
 
+def create_bar(segWidth, barChar):
+    '''
+    creates a bar for a bar graph
+    '''
+    maxWhiteSpace = 50
+    halfWidth = int(round((segWidth / 2), 0))
+    halfBar = barChar * halfWidth
+    whiteSpace = " " * (maxWhiteSpace - halfWidth)
+    bar = whiteSpace + (halfBar * 2) + whiteSpace
+    
+    return bar
+
+
 def print_output(dowelSegWidths):
     '''
     Prints the maximum width of each of the eight carved dowel segments as
     percentages of the uncarved dowel's width.
     '''
     roundedSegWidths = [round(seg, 1) for seg in dowelSegWidths]
+    barGraph = []
+    barChar = "░"
 
     print("Dividing vertically into eight segments, each segment of the dowel measures, at the widest:")
 
     for seg in roundedSegWidths:
+        bar = create_bar(seg, barChar) #create bar graph
+        barGraph.append(bar)
+
         seg = str(seg)
         if len(seg) < 4: #ensure consistent whitespace
             seg = "0" + seg
-        print(seg + "%")
+        print(seg + "%" + bar)
 
     print("of the dowel's original width.")
 
