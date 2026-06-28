@@ -99,7 +99,7 @@ def print_output(dowelSegWidths):
         seg = str(seg)
         if len(seg) < 4: #ensure consistent whitespace
             seg = "0" + seg
-        print(seg + "%" + bar)
+        print(seg + "%" + " " + bar)
 
     print("of the dowel's original width.")
 
