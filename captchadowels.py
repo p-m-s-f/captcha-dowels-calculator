@@ -65,17 +65,16 @@ def get_dowel_seg_widths(input):
     inputCaptchaVals = [CAPTCHA_VALS.index(char) for char in input]
     dowelSegWidths = [((63-captchaVal) / 63 ) * 100 for captchaVal in inputCaptchaVals]
 
-    #print(inputCaptchaVals)
-    print(dowelSegWidths)
     return dowelSegWidths
 
 
 def main():
     '''
     TODO:
-    1. collect input
-    4. feed processed input to function that translates to dowel widths
-    TODO: maybe just write an error message function? 
+    - maybe just write an error message function? 
+    - write a print function
+    - consider rewriting process_input so it's not repeating error code (kind of same as prev. todo)
+    - maybe add length-checking etc. to get_input, so the computer does less work
     '''
     global CAPTCHA_VALS
     CAPTCHA_VALS = create_list_of_captcha_values()
@@ -84,6 +83,7 @@ def main():
     input = process_input(input)
 
     dowelSegWidths = get_dowel_seg_widths(input)
+    for width in dowelSegWidths: print(width) #TODO: write a proper print function, erase this later.
 
 if __name__ == "__main__":
     main()
