@@ -105,7 +105,6 @@ def main():
     dowelSegWidths = get_dowel_seg_widths(input)
 
     print_output(dowelSegWidths)
-    #for width in dowelSegWidths: print(width) #TODO: write a proper print function, erase this later.
 
 if __name__ == "__main__":
     main()
