@@ -68,13 +68,33 @@ def get_dowel_seg_widths(input):
     return dowelSegWidths
 
 
+def print_output(dowelSegWidths):
+    '''
+    Prints the maximum width of each of the eight carved dowel segments as
+    percentages of the uncarved dowel's width.
+    '''
+    roundedSegWidths = [round(seg, 1) for seg in dowelSegWidths]
+
+    print("Dividing vertically into eight segments, each segment of the dowel measures, at the widest:")
+
+    for seg in roundedSegWidths:
+        seg = str(seg)
+        if len(seg) < 4: #ensure consistent whitespace
+            seg = "0" + seg
+        print(seg + "%")
+
+    print("of the dowel's original width.")
+
+
 def main():
     '''
     TODO:
     - maybe just write an error message function? 
-    - write a print function
     - consider rewriting process_input so it's not repeating error code (kind of same as prev. todo)
     - maybe add length-checking etc. to get_input, so the computer does less work
+        - or add call to create_list_of_captcha_values() in process_input? 
+        - i doubt this is a 'big' enough script to warrant taking such cost-cutting measures
+    - finish writing in-line documentation
     '''
     global CAPTCHA_VALS
     CAPTCHA_VALS = create_list_of_captcha_values()
@@ -83,7 +103,9 @@ def main():
     input = process_input(input)
 
     dowelSegWidths = get_dowel_seg_widths(input)
-    for width in dowelSegWidths: print(width) #TODO: write a proper print function, erase this later.
+
+    print_output(dowelSegWidths)
+    #for width in dowelSegWidths: print(width) #TODO: write a proper print function, erase this later.
 
 if __name__ == "__main__":
     main()
