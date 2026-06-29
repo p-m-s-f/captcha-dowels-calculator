@@ -63,7 +63,7 @@ def get_dowel_seg_widths(input):
     returns list of segment widths
     '''
     inputCaptchaVals = [CAPTCHA_VALS.index(char) for char in input]
-    dowelSegWidths = [((63-captchaVal) / 63 ) * 100 for captchaVal in inputCaptchaVals]
+    dowelSegWidths = [((64-captchaVal) / 64 ) * 100 for captchaVal in inputCaptchaVals]
 
     return dowelSegWidths
 
