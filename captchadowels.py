@@ -105,15 +105,6 @@ def print_output(dowelSegWidths):
 
 
 def main():
-    '''
-    TODO:
-    - maybe just write an error message function? 
-    - consider rewriting process_input so it's not repeating error code (kind of same as prev. todo)
-    - maybe add length-checking etc. to get_input, so the computer does less work
-        - or add call to create_list_of_captcha_values() in process_input? 
-        - i doubt this is a 'big' enough script to warrant taking such cost-cutting measures
-    - finish writing in-line documentation
-    '''
     global CAPTCHA_VALS
     CAPTCHA_VALS = create_list_of_captcha_values()
 
