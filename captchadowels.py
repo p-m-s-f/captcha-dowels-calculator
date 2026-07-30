@@ -3,8 +3,8 @@ CAPTCHA_VALS = []
 
 def get_input():
     '''
-    Prompts the user to paste the image URL for today's Flash
-    Gordon strip, and returns their input as a string.
+    Prompts the user to type or paste an eight-digit
+    captchalogue code.
     '''
     print("Type or paste your captchalogue code:")
     inputString = str(input())
