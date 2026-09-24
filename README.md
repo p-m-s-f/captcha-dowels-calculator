@@ -14,9 +14,7 @@ Homestuck incorporates simple programming concepts into its parody of text-based
     <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00010.gif"
          alt="Albuquerque, New Mexico">
 <figcaption>
-    Unfortunately, you cannot access the FAKE ARMS! Their card is underneath the one you just used to captchalogue the SMOKE PELLETS. You will have to use the pellets first in order to access the arms. But this is probably unadvisable, since you'd just make your room lousy with smoke!
-
-    Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK DATA STRUCTURE. You were never all that great with data structures and you find the concept puzzling and mildly irritating.
+    Unfortunately, you cannot access the FAKE ARMS! Their card is underneath the one you just used to captchalogue the SMOKE PELLETS. You will have to use the pellets first in order to access the arms. But this is probably unadvisable, since you'd just make your room lousy with smoke!<br>Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK DATA STRUCTURE. You were never all that great with data structures and you find the concept puzzling and mildly irritating.
 </figcaption>
 </figure>
 
