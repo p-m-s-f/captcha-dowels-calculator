@@ -1,3 +1,9 @@
+<style>
+    figcaption {
+        font-size: 0.5em;
+    }
+</style>
+
 # Homestuck Captcha Dowel Calculator
 
 This just-for-fun script translates [Homestuck's](https://www.homestuck.com) captchalogue codes into segment widths of a carved dowel.
