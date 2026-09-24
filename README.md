@@ -8,8 +8,6 @@ Broadly, Homestuck is a multi-media webcomic, primarily written and drawn Andrew
 
 Homestuck incorporates simple programming concepts into its parody of text-based adventure games. Notably, player characters' inventory systems are constrained by simple data structures.
 
-![image test](https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00010.gif)
-
 <figure>
     <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00010.gif"
          alt="Albuquerque, New Mexico">
