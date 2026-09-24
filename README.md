@@ -1,6 +1,11 @@
 <style>
+    figure {
+        margin: auto;
+    }
+
     figcaption {
         font-size: 0.5em;
+        text-align: center;
     }
 </style>
 
