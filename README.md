@@ -34,7 +34,7 @@ Inputting the code into a Punch Designix machine allows players to punch their c
 | :---: | :---: |
 | "You slip the PRE-PUNCHED CARD into a slot on the TOTEM LATHE." | "The lathe carves ONE (1) TOTEM." |
 
-Then, the player brings the Totem to the Alchemiter, which scans the Totem and alchemizes the item on the card. Players can alchemize new items by punching a single card with two codes, or by inserting two punched cards into the Totem Lathe.
+Then, the player brings the Totem to the Alchemiter, which scans the Totem and alchemizes the item on the card. Players can alchemize new items by punching a single card with two codes (increasing the overall number of holes), or by inserting two punched cards into the Totem Lathe (decreasing the overall number of holes).
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00631_2.gif" alt="John overlaps two punched cards, creating a new pattern of punched holes"/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00632.gif" alt="John carves a new Totem, with a different shape than the one previous"/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00635.gif" alt="John poses triumphantly with his newly-alchemized weapon. It has elements of both the Claw Hammer and Pogo Ride."/> |
 | :---: | :---: | :---: |
