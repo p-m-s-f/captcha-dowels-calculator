@@ -44,8 +44,9 @@ Then, the player brings the totem to the Alchemiter, a machine that scans the to
 
 I wanted to know more about the relationship between Homestuck's captcha codes and totem shapes:
 
-> There is sort of an implied cipher between the captcha codes and the totem shapes. The code for a card here is very simple: 11111111. So the result is carving the whole thing down by a little bit, without introducing any curves. Similarly, the code for nothing, 00000000 (an unpunched card), won’t even deploy spikes from the lathe, so the totem is left uncarved altogether. But complicated codes will modify the spikes and the paths they carve in interesting ways, like a key-making machine.
-
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00619.gif" alt="John stands next to the Totem Lathe as it carves a totem for a captchalogue card, which itself uses the code 11111111. The Totem is still cylindrical, but slightly narrower than an uncarved dowel." width="50%"/> |
 | :---: |
 | " You make a TOTEM for a CAPTCHALOGUE CARD. Pretty bare bones looking totem, if you ask you." |
+
+> There is sort of an implied cipher between the captcha codes and the totem shapes. The code for a card here is very simple: 11111111. So the result is carving the whole thing down by a little bit, without introducing any curves. Similarly, the code for nothing, 00000000 (an unpunched card), won’t even deploy spikes from the lathe, so the totem is left uncarved altogether. But complicated codes will modify the spikes and the paths they carve in interesting ways, like a key-making machine. [^1]
+[^1] Andrew Hussie, Homestuck commentary pages [002518](https://homestuck.com/002518)-[002520](https://homestuck.com/002520)
