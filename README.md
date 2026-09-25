@@ -4,11 +4,11 @@ This just-for-fun script translates [Homestuck's](https://www.homestuck.com) cap
 
 | Contents |
 | ----------- |
-| [What is Homestuck?](#what-hs) |
-| [What are "Captcha Dowels"?](#what-dowels) |
-| [Why Create a Calculator?](#why-calc) |
+| [What is Homestuck?](#what-is-homestuck) |
+| [What are "Captcha Dowels"?](#what-are-captcha-dowels) |
+| [Why Create a Calculator?](#why-create-a-calculator) |
 
-## What is Homestuck? {#what-hs}
+## What is Homestuck?
 
 Broadly, Homestuck is a multi-media webcomic, primarily written and drawn Andrew Hussie. It is the fourth entry in a series of "MS Paint Adventures" which mimick the look and feel of yesteryear's text-based adventure games. Readers "played" MSPA by submitting commands as forum replies. Then, Andrew would select a batch of commands turn them into new comic pages. A page of MSPA typically consists of one or more panels, sometimes accompanied by a narrative caption or dialogue.
 
@@ -18,7 +18,7 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 | :---: |
 | "Unfortunately, you cannot access the FAKE ARMS! Their card is underneath the one you just used to captchalogue the SMOKE PELLETS. You will have to use the pellets first in order to access the arms... Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK DATA STRUCTURE. You were never all that great with data structures and you find the concept puzzling and mildly irritating." |
 
-## What are "Captcha Dowels"? {#what-dowels}
+## What are "Captcha Dowels"?
 
 "Captcha Dowels" is a descriptive term I prescribed to one of Homestuck's important in-game items: Totems. Totems are a crucial ingredient for punch card alchemy, a system enabling players to fabricate (alchemize) new items by combining those in their inventory.
 
@@ -40,6 +40,6 @@ Then, the player brings the Totem to the Alchemiter, which scans the Totem and a
 | :---: | :---: | :---: |
 | "You overlap two of the punched cards. They mask each other's hole patterns." | "You carve another TOTEM using the new combined hole pattern." | "You got the POGO HAMMER" |
 
-## Why Create a Calculator? {#why-calc}
+## Why Create a Calculator?
 
 ...
