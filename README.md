@@ -22,7 +22,7 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 
 "Captcha Dowels" is a descriptive term I use to refer to one of Homestuck's important in-game items: **totems**. Totems are a crucial ingredient of **punch card alchemy**, a system enabling players to alchemize (i.e., fabricate) new items by combining those in their inventory.
 
-Items are stored on "captchalogue cards". Storing an item in a captchalogue card generates an eight character captcha code on the card's back:
+Items are stored on captchalogue cards. Storing an item in a captchalogue card generates an **eight character captcha code** on the card's back:
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00523.gif" alt="John expresses frustration at being unable to access the card containing his prop arms, because they are 'below' the card containing his smoke pellets." width="50%"/> |
 | :---: |
