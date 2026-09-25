@@ -10,7 +10,7 @@ This just-for-fun script translates [Homestuck's](https://www.homestuck.com) cap
 
 ## What is Homestuck?
 
-Broadly, [Homestuck](https://homestuck.com/001901) is a multi-media webcomic, primarily written and drawn by Andrew Hussie. It is the fourth entry in a series of ["MS Paint Adventures"](https://homestuck.com/newreader) which mimick the look and feel of yesteryear's text-based adventure games. Readers "played" MSPA by submitting commands as forum replies. Then, Andrew would select a batch of commands turn them into new comic pages. A page of MSPA typically consists of one or more panels, sometimes accompanied by narrative captions or dialogue.
+Broadly, [Homestuck](https://homestuck.com/001901) is a multi-media webcomic, primarily written and drawn by Andrew Hussie. It is the fourth entry in a series of "[MS Paint Adventures](https://homestuck.com/newreader)" which mimick the look and feel of yesteryear's text-based adventure games. Readers "played" MSPA by submitting commands as forum replies. Then, Andrew would select a batch of commands and turn them into new comic pages. A page of MSPA typically consists of a command and one or more panels, sometimes accompanied by narrative captions or dialogue.
 
 Homestuck incorporates simple programming concepts into its parody of text-based adventure games. Notably, player characters' inventory systems are constrained by data structures:
 
@@ -28,7 +28,7 @@ Items are stored on "captchalogue cards". Storing an item in a captchalogue card
 | :---: |
 | "You flip over the top card containing your POGO RIDE. Any time you captchalogue something, a new code appears on the back of the card. You've always wondered what the code was for." |
 
-Inputting the code into a Punch Designix machine allows players to punch their cards with a corresponding pattern of holes. To alchemize the item on the card, the player punches it using the Punch Designix, and slots it into the card-reader on another machine, the Totem Lathe. The Totem Lathe carves Cruxite Dowels into totems based on the pattern of punched holes on the card.
+Inputting the code into a Punch Designix machine allows players to punch their cards with a **corresponding pattern of holes**. To alchemize the item on the card, the player punches it with its code, and slots it into the card-reader on another machine: the Totem Lathe. The Totem Lathe **carves Cruxite Dowels into totems based on the pattern of punched holes** on the card.
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00205.gif" alt="John slots a punched card into the Totem Lathe, activating the machine."/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00210_1.gif" alt="The Totem Lathe carves a cylindrical dowel into an oddly-shaped Totem."/> | 
 | :---: | :---: |
