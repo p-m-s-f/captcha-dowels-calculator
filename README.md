@@ -20,7 +20,7 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 
 ## What are "Captcha Dowels"?
 
-"Captcha Dowels" is a descriptive term I prescribed to one of Homestuck's important in-game items: Totems. Totems are a crucial ingredient for punch card alchemy, a system enabling players to fabricate (alchemize) new items by combining those in their inventory.
+"Captcha Dowels" is a descriptive term I use to refer to one of Homestuck's important in-game items: **totems**. Totems are a crucial ingredient for punch card alchemy, a system enabling players to alchemize (i.e., fabricate) new items by combining those in their inventory.
 
 Items are stored on "captchalogue cards". Storing an item in a captchalogue card generates an eight character captcha code on the card's back:
 
@@ -28,13 +28,13 @@ Items are stored on "captchalogue cards". Storing an item in a captchalogue card
 | :---: |
 | "You flip over the top card containing your POGO RIDE. Any time you captchalogue something, a new code appears on the back of the card. You've always wondered what the code was for." |
 
-Inputting the code into a Punch Designix machine allows players to punch their cards with a corresponding pattern of holes. To alchemize the item on the card, the player punches it using the Punch Designix, and slots it into the card-reader on another machine, the Totem Lathe. The Totem Lathe carves Cruxite Dowels into Totems based on the pattern of punched holes on the card.
+Inputting the code into a Punch Designix machine allows players to punch their cards with a corresponding pattern of holes. To alchemize the item on the card, the player punches it using the Punch Designix, and slots it into the card-reader on another machine, the Totem Lathe. The Totem Lathe carves Cruxite Dowels into totems based on the pattern of punched holes on the card.
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00205.gif" alt="John slots a punched card into the Totem Lathe, activating the machine."/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00210_1.gif" alt="The Totem Lathe carves a cylindrical dowel into an oddly-shaped Totem."/> | 
 | :---: | :---: |
 | "You slip the PRE-PUNCHED CARD into a slot on the TOTEM LATHE." | "The lathe carves ONE (1) TOTEM." |
 
-Then, the player brings the Totem to the Alchemiter, which scans the Totem and alchemizes the item on the card. Players can alchemize new items by punching a single card with two codes (increasing the overall number of holes), or by inserting two punched cards into the Totem Lathe (decreasing the overall number of holes).
+Then, the player brings the totem to the Alchemiter, a machine that scans the totem and alchemizes the item on the card. Players can alchemize new items by punching a single card with two codes (increasing the overall number of holes), or by inserting two punched cards into the Totem Lathe (decreasing the overall number of holes).
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00631_2.gif" alt="John overlaps two punched cards, creating a new pattern of punched holes"/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00632.gif" alt="John carves a new Totem, with a different shape than the one previous"/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00635.gif" alt="John poses triumphantly with his newly-alchemized weapon. It has elements of both the Claw Hammer and Pogo Ride."/> |
 | :---: | :---: | :---: |
