@@ -14,4 +14,22 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 
 ## What are "Captcha Dowels"?
 
-...
+"Captcha Dowels" is a descriptive term I prescribed to one of Homestuck's important in-game items: Totems. Totems are a crucial ingredient for punch card alchemy, a system enabling players to fabricate (alchemize) new items by combining those in their inventory.
+
+Items are stored on "captchalogue cards". Storing an item in a captchalogue card generates an eight character captcha code on the card's back. 
+
+| <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00523.gif" alt="John expresses frustration at being unable to access the card containing his prop arms, because they are 'below' the card containing his smoke pellets." width="50%"/> |
+| :---: |
+| "You flip over the top card containing your POGO RIDE. Any time you captchalogue something, a new code appears on the back of the card. You've always wondered what the code was for." |
+
+Inputting the code into a Punch Designix machine allows players to punch their cards with a corresponding pattern of holes. To alchemize the item on the card, the player punches it using the Punch Designix, and slots it into the card-reader on another machine, the Totem Lathe. The Totem Lathe carves Cruxite Dowels into Totems based on the pattern of punched holes on the card.
+
+| <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00205.gif" alt="John slots a punched card into the Totem Lathe, activating the machine." width="50%"/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00210_1.gif" alt="The Totem Lathe carves a cylindrical dowel into an oddly-shaped Totem." width="50%"/> | 
+| :---: | :---: |
+| "You slip the PRE-PUNCHED CARD into a slot on the TOTEM LATHE. Above, the TOOL ARM deploys a configuration of chisels." | The lathe carves ONE (1) TOTEM. |
+
+Then, the player brings the Totem to the Alchemiter, which scans the Totem and alchemizes the item on the card. Players can alchemize new items by punching a single card with two codes, or by inserting two punched cards into the Totem Lathe.
+
+| <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00631_2.gif" alt="John expresses frustration at being unable to access the card containing his prop arms, because they are 'below' the card containing his smoke pellets." width="50%"/> |
+| :---: |
+| "You overlap two of the punched cards. They mask each other's hole patterns." |
