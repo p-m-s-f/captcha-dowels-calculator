@@ -16,7 +16,7 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00009.gif" alt="John stows the smoke pellets in his Sylladex, represented with a bright pink UI overlayed on the panel."/> | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-1/00010.gif" alt="John expresses frustration at being unable to access the card containing his prop arms, because they are 'below' the card containing his smoke pellets."/> |
 | :---: | :---: |
-| "You stow the SMOKE PELLETS on one of your CAPTCHALOGUE CARDS in your SYLLADEX." | "Unfortunately, you cannot access the FAKE ARMS! Their card is underneath the one you just used to captchalogue the SMOKE PELLETS. You will have to use the pellets first in order to access the arms... Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK DATA STRUCTURE." |
+| "You stow the SMOKE PELLETS on one of your CAPTCHALOGUE CARDS in your SYLLADEX." | "You will have to use the pellets first in order to access the arms... Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK DATA STRUCTURE." |
 
 ## What are "Captcha Dowels"?
 
