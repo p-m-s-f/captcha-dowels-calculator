@@ -7,6 +7,7 @@ This just-for-fun script translates [Homestuck's](https://www.homestuck.com) cap
 | [What is Homestuck?](#what-is-homestuck) |
 | [What are "Captcha Dowels"?](#what-are-captcha-dowels) |
 | [Why Create a Calculator?](#why-create-a-calculator) |
+| [Is this Calculator Accurate?](#is-this-calculator-accurate) |
 
 ## What is Homestuck?
 
@@ -44,12 +45,26 @@ Then, the player brings the totem to the Alchemiter, a machine that scans the to
 
 I wanted to know more about the relationship between Homestuck's captcha codes and totem shapes:
 
-| <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00619.gif" alt="John stands next to the Totem Lathe as it carves a totem for a captchalogue card, which itself uses the code 11111111. The Totem is still cylindrical, but slightly narrower than an uncarved dowel." width="50%"/> |
-| :---: |
-| " You make a TOTEM for a CAPTCHALOGUE CARD. Pretty bare bones looking totem, if you ask you." |
-
 > There is sort of an implied cipher between the captcha codes and the totem shapes. The code for a card here is very simple: 11111111. So the result is carving the whole thing down by a little bit, without introducing any curves. Similarly, the code for nothing, 00000000 (an unpunched card), won’t even deploy spikes from the lathe, so the totem is left uncarved altogether. But complicated codes will modify the spikes and the paths they carve in interesting ways, like a key-making machine.
 >
 > <sup> — Andrew Hussie, Homestuck commentary, pages [002518](https://homestuck.com/002518)-[002520](https://homestuck.com/002520)</sup>
 
-...
+| <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00619.gif" alt="John stands next to the Totem Lathe as it carves a totem for a captchalogue card, which itself uses the code 11111111. The Totem is still cylindrical, but slightly narrower than an uncarved dowel." width="50%"/> |
+| :---: |
+| "You make a TOTEM for a CAPTCHALOGUE CARD. Pretty bare bones looking totem, if you ask you." |
+
+Although this relationship is only ever implied, Andrew did explain the cipher between captcha codes and hole punch patterns (writing from the perspective of one of the player characters, John):
+
+> the hole pattern [punched into the cards] is based on a fairly simple cipher, converting the captcha code to binary and then the pattern is punched, where 1 is a punched hole, and 0 is an unpunched slot...
+
+The cipher assigns numerical values in ascending order to a modified list of alphanumerical characters in lexicographically ascending order (i.e., "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz?!" represent 0-63).
+
+> ...there are oddball characters ! and ? at the end to bring it up to 63 (0 thru 63 = 64 total, i.e. 6 bits). cause the binary representation of the captcha code chars are 6 bits each, which have a range of 0-63.
+>
+> <sup> — Andrew Hussie, Homestuck, page [002745](https://www.homestuck.com/002745)</sup>
+
+So, based on [page 002519](https://homestuck.com/002519) (and Andrew's commentary), I devised a simple linear relationship between captcha codes and dowel shape; when the totem is vertically divided into eight segments, the numerical value represented by each of the eight characters in the captcha code is directly proportional to the width of one of the totem's eight segments. Then, I wrote this script to automate the translation of codes to segment widths.
+
+## Is this Calculator Accurate?
+
+In this section, I plan to explain how I arrived at the formula I use to translate captcha codes to totem segment widths, and the assumptions I made along the way.
