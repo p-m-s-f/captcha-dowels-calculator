@@ -68,3 +68,5 @@ So, based on [page 002519](https://homestuck.com/002519) (and Andrew's commentar
 ## Is this Calculator Accurate?
 
 In this section, I plan to explain how I arrived at the formula I use to translate captcha codes to totem segment widths, and the assumptions I made along the way. The short answer is no, the calculator is not entirely accurate. However, Andrew reused many of the same totems to represent items with different captcha codes, so it's unclear if a "true" or "accurate" model is really possible to achieve.
+
+It uses the formula $\frac{64-n}{64}100$ to translate a captcha character into percentage width, where $n$ is the character's associated cipher value.
