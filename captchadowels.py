@@ -41,9 +41,9 @@ def process_input(input):
     lenInput = len(input)
     if lenInput != 8:
         if lenInput > 8:
-            print("Error: Your captchalogue code is too long. Check your code and try again.")
+            print("Error: Your captchalogue code is too long. Please try again with an eight character code.")
         else:
-            print("Error: Your captchalogue code is too short. Check your code and try again.")
+            print("Error: Your captchalogue code is too short. Please try again with an eight character code.")
         sys.exit(1)
 
     listOfInput = list(input)
