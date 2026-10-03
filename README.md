@@ -1,4 +1,4 @@
-# Homestuck Captcha Dowel Calculator
+# Homestuck CAPTCHA Dowel Calculator
 
 This just-for-fun script translates [Homestuck's](https://www.homestuck.com) captchalogue codes into segment widths of a carved dowel.
 
@@ -19,11 +19,11 @@ Homestuck incorporates simple programming concepts into its parody of text-based
 | :---: | :---: |
 | "You stow the SMOKE PELLETS on one of your CAPTCHALOGUE CARDS in your SYLLADEX. You still aren't totally sure what that means" | "You will have to use the pellets first in order to access the arms... Your SYLLADEX'S FETCH MODUS is currently dictated by the logic of a STACK" |
 
-## What are "Captcha Dowels"?
+## What are "CAPTCHA Dowels"?
 
-"Captcha Dowels" is a descriptive term I use to refer to one of Homestuck's important in-game items: **totems**. Totems are a crucial ingredient of **punch card alchemy**, a system enabling players to alchemize (i.e., fabricate) new items by combining those in their inventory.
+"CAPTCHA Dowels" is a descriptive term I use to refer to one of Homestuck's important in-game items: **totems**. Totems are a crucial ingredient of **punch card alchemy**, a system enabling players to alchemize (i.e., fabricate) new items by combining those in their inventory.
 
-Items are stored on captchalogue cards. Storing an item in a captchalogue card generates an **eight character captcha code** on the card's back:
+Items are stored on captchalogue cards. Storing an item in a captchalogue card generates an **eight character CAPTCHA code** on the card's back:
 
 | <img src="https://storage.homestuck.com/story/homestuck/media/images/panels/act-2/00523.gif" alt="John expresses frustration at being unable to access the card containing his prop arms, because they are 'below' the card containing his smoke pellets." width="50%"/> |
 | :---: |
@@ -43,9 +43,9 @@ Then, the player brings the totem to the Alchemiter, a machine that scans the to
 
 ## Why Create a Calculator?
 
-I wanted to know more about the relationship between Homestuck's captcha codes and totem shapes:
+I wanted to know more about the relationship between Homestuck's CAPTCHA codes and totem shapes:
 
-> There is sort of an implied cipher between the captcha codes and the totem shapes. The code for a card here is very simple: 11111111. So the result is carving the whole thing down by a little bit, without introducing any curves. Similarly, the code for nothing, 00000000 (an unpunched card), won’t even deploy spikes from the lathe, so the totem is left uncarved altogether. But complicated codes will modify the spikes and the paths they carve in interesting ways, like a key-making machine.
+> There is sort of an implied cipher between the CAPTCHA codes and the totem shapes. The code for a card here is very simple: 11111111. So the result is carving the whole thing down by a little bit, without introducing any curves. Similarly, the code for nothing, 00000000 (an unpunched card), won’t even deploy spikes from the lathe, so the totem is left uncarved altogether. But complicated codes will modify the spikes and the paths they carve in interesting ways, like a key-making machine.
 >
 > <sup> — Andrew Hussie, Homestuck commentary, pages [002518](https://homestuck.com/002518)-[002520](https://homestuck.com/002520)</sup>
 
@@ -53,7 +53,7 @@ I wanted to know more about the relationship between Homestuck's captcha codes a
 | :---: |
 | "You make a TOTEM for a CAPTCHALOGUE CARD. Pretty bare bones looking totem, if you ask you." |
 
-Although this relationship is only ever implied, Andrew did explain the cipher between captcha codes and hole punch patterns (writing from the perspective of one of the player characters, John):
+Although this relationship is only ever implied, Andrew did explain the cipher between CAPTCHA codes and hole punch patterns (writing from the perspective of one of the player characters, John):
 
 > the hole pattern [punched into the cards] is based on a fairly simple cipher, converting the captcha code to binary and then the pattern is punched, where 1 is a punched hole, and 0 is an unpunched slot...
 
@@ -63,10 +63,10 @@ The cipher assigns numerical values in ascending order to a modified list of alp
 >
 > <sup> — Andrew Hussie, Homestuck, page [002745](https://www.homestuck.com/002745)</sup>
 
-So, based on [page 002519](https://homestuck.com/002519) (and Andrew's commentary), I devised a simple linear relationship between captcha codes and dowel shape; when the totem is vertically divided into eight segments, the numerical value represented by each of the eight characters in the captcha code is directly proportional to the width of one of the totem's eight segments. Then, I wrote this script to automate the translation of codes to segment widths.
+So, based on [page 002519](https://homestuck.com/002519) (and Andrew's commentary), I devised a simple linear relationship between CAPTCHA codes and dowel shape; when the totem is vertically divided into eight segments, the numerical value represented by each of the eight characters in the CAPTCHA code is directly proportional to the width of one of the totem's eight segments. Then, I wrote this script to automate the translation of codes to segment widths.
 
 ## Is this Calculator Accurate?
 
-In this section, I plan to explain how I arrived at the formula I use to translate captcha codes to totem segment widths, and the assumptions I made along the way. The short answer is no, the calculator is not entirely accurate. However, Andrew reused many of the same totems to represent items with different captcha codes, so it's unclear if a "true" or "accurate" model is really possible to achieve.
+In this section, I plan to explain how I arrived at the formula I use to translate CAPTCHA codes to totem segment widths, and the assumptions I made along the way. The short answer is no, the calculator is not entirely accurate. However, Andrew reused many of the same totems to represent items with different CAPTCHA codes, so it's unclear if a "true" or "accurate" model is really possible to achieve.
 
-It uses the formula $\frac{64-n}{64}100$ to translate a captcha character into percentage width, where $n$ is the character's associated cipher value.
+It uses the formula $\frac{64-n}{64}100$ to translate a CAPTCHA character into percentage width, where $n$ is the character's associated cipher value.
